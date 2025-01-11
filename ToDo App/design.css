@@ -1,0 +1,50 @@
+body {
+    background-color: #f0f8ff; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+div {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px; 
+}
+
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 13px;
+    margin-bottom: 15px; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+
+ol {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+}
